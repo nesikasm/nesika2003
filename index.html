@@ -1,1 +1,122 @@
-<h1>good</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bio-Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #555;
+            padding-bottom: 5px;
+        }
+        .toggle-btn {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 15px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .dark-mode {
+            background-color: #333;
+            color: white;
+        }
+        .dark-mode .container {
+            background: #444;
+        }
+    </style>
+    <script>
+        function toggleTheme() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleTheme()">Toggle Theme</button>
+    <div class="container">
+        <h1>My Bio-Data</h1>
+        
+        <div class="section">
+            <h2>Personal Details</h2>
+            <p><strong>Name:</strong> Suganya G</p>
+            <p><strong>DOB:</strong> March 18, 2000</p>
+            <p><strong>Languages:</strong> English, Tamil, Telugu</p>
+            <p><strong>Location:</strong> Salem, Tamil Nadu, India</p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>Undergraduate:</strong> B. Sc in COMPUTER SCIENCE, PERIYAR UNIVERSITY, 2023</p>
+            <p><strong>Postgraduate:</strong> M.Sc. in COMPUTER SCIENCE, PERIYAR UNIVERSITY, 2025</p>
+        </div>
+
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Frontend: HTML, CSS, JavaScript</li>
+                <li>Backend: PHP, MySQL</li>
+                <li>IoT: Embedded Systems, Microcontrollers</li>
+                <li>Other: Git, Responsive Web Design</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Work Experience</h2>
+            <p><strong>Internships:</strong></p>
+            <ul>
+                <li>Odugaa Tech (IoT Internship) - Worked on smart automation systems</li>
+                <li>Algox Fusion (Web Development) - Developed dynamic web applications</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Naan Mudhalvan Scheme:</strong> Web development project using HTML, CSS, JavaScript, PHP, and MySQL</li>
+                <li><strong>Street Light Automation System (IoT):</strong> Designed an IoT-based system to automate street lighting</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Achievements & Extracurricular Activities</h2>
+            <ul>
+                <li>Presented multiple voluntary seminars during college and school</li>
+                <li>Participated in technical symposiums and coding competitions</li>
+                <li>Classical dancer (Bharatanatyam) with stage performance experience</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Contact</h2>
+            <p><strong>Email:</strong> suganya.g@example.com</p>
+            <p><strong>Phone:</strong> +91 9486957231</p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/suganyag" target="_blank">linkedin.com/in/suganyag</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/suganyag" target="_blank">github.com/suganyag</a></p>
+        </div>
+    </div>
+</body>
+</html>
+
